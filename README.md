@@ -1,6 +1,6 @@
 # 🛍️ Carrinho de Compras - Backend API
 
-Este projeto consiste em uma **API REST** desenvolvida com **FastAPI** para gerenciar produtos em um carrinho de compras virtual. Os dados são persistidos em um banco de dados **SQLite**, permitindo operações de **criação**, **leitura**, **atualização** e **remoção** de produtos.
+Projeto como requisito para Pós Graduação em Desenvolvimento FullStack PucRio, para Desenvolvimento Back-End Avançado.Este projeto consiste em uma **API REST** desenvolvida com **FastAPI** para gerenciar produtos em um carrinho de compras virtual. Os dados são persistidos em um banco de dados **SQLite**, permitindo operações de **criação**, **leitura**, **atualização** e **remoção** de produtos.
 
 ## 🚀 Funcionalidades
 
