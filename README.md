@@ -58,29 +58,6 @@ Após iniciar o servidor, acesse:
 
 ---
 
-## 🗃️ Banco de Dados
-
-O backend utiliza um banco de dados **SQLite** chamado `carrinho.db`, gerado automaticamente ao iniciar a aplicação.
-
-Para verificar os dados persistidos:
-
-- Use o [DB Browser for SQLite](https://sqlitebrowser.org/) (recomendado)
-- Ou use um script simples com `sqlite3`, como este:
-
-```python
-import sqlite3
-
-conn = sqlite3.connect("carrinho.db")
-cursor = conn.cursor()
-cursor.execute("SELECT * FROM produtos")
-produtos = cursor.fetchall()
-for p in produtos:
-    print(p)
-conn.close()
-```
-
----
-
 ---
 
 ## 👨‍💻 Tecnologias Utilizadas
@@ -109,39 +86,6 @@ conn.close()
 
 2. **Acesse a API**:
    - Documentação Swagger: [http://localhost:8000/docs](http://localhost:8000/docs)
-  
-
-3. **Parar o container**:
-   Para parar o container, pressione `Ctrl+C` ou execute:
-   ```bash
-   docker-compose down
-   ```
-
----
-
-## 🗃️ Banco de Dados
-
-O backend utiliza um banco de dados **SQLite** chamado `carrinho.db`, gerado automaticamente ao iniciar a aplicação.
-
-Para verificar os dados persistidos:
-
-- Use o [DB Browser for SQLite](https://sqlitebrowser.org/) (recomendado)
-- Ou use um script simples com `sqlite3`, como este:
-
-```python
-import sqlite3
-
-conn = sqlite3.connect("carrinho.db")
-cursor = conn.cursor()
-cursor.execute("SELECT * FROM produtos")
-produtos = cursor.fetchall()
-for p in produtos:
-    print(p)
-conn.close()
-```
-
----
-
 
 
 ---
