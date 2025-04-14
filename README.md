@@ -17,8 +17,8 @@ Este projeto consiste em uma **API REST** desenvolvida com **FastAPI** para gere
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/DanilloAlve/Carrinho-ActiveStyle_API_Backend
+
 ```
 
 ### 2. Crie e ative um ambiente virtual
@@ -46,7 +46,6 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-> 🔁 Substitua `main:app` pelo caminho correto do seu arquivo principal, se necessário (por exemplo, `app.py`, `backend/main.py`, etc).
 
 ---
 
@@ -55,7 +54,7 @@ uvicorn main:app --reload
 Após iniciar o servidor, acesse:
 
 - Documentação Swagger: [http://localhost:8000/docs](http://localhost:8000/docs)
-- Documentação ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+
 
 ---
 
@@ -81,19 +80,6 @@ conn.close()
 ```
 
 ---
-
-## 📦 Exemplo de Requisição POST (Adicionar Produto)
-
-```json
-POST /produtos
-Content-Type: application/json
-
-{
-  "nome": "Tênis Esportivo",
-  "preco": 199.90,
-  "imagem": "https://link-da-imagem.com/tenis.png"
-}
-```
 
 ---
 
@@ -156,18 +142,7 @@ conn.close()
 
 ---
 
-## 📦 Exemplo de Requisição POST (Adicionar Produto)
 
-```json
-POST /produtos
-Content-Type: application/json
-
-{
-  "nome": "Tênis Esportivo",
-  "preco": 199.90,
-  "imagem": "https://link-da-imagem.com/tenis.png"
-}
-```
 
 ---
 
