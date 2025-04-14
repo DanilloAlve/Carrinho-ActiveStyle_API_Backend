@@ -56,15 +56,7 @@ Após iniciar o servidor, acesse:
 
 ---
 
----
 
-## 👨‍💻 Tecnologias Utilizadas
-
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [SQLite](https://www.sqlite.org/index.html)
-- [Uvicorn](https://www.uvicorn.org/)
-- [Pydantic](https://docs.pydantic.dev/)
-- [Swagger UI](https://swagger.io/tools/swagger-ui/)
 
 ---
 ## 🐳 Executando com Docker
