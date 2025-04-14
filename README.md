@@ -27,11 +27,9 @@ git clone https://github.com/DanilloAlve/Carrinho-ActiveStyle_API_Backend
 # Criação do ambiente virtual
 python -m venv venv
 
-# Ativação no Windows
+# Ativação
 venv\Scripts\activate
 
-# Ativação no Linux/Mac
-source venv/bin/activate
 ```
 
 ### 3. Instale as dependências
