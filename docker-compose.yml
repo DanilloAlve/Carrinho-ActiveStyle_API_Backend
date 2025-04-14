@@ -1,0 +1,17 @@
+services:
+  carrinho-activestyle_api_backend:
+    build:
+      context: ./carrinho-activestyle_api_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./carrinho-activestyle_api_backend/carrinho.db:/app/carrinho.db
+    restart: always
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+  frontend:
+    build:
+      context: ./ActiveStyle-MVP-Desenvolvimento-Frontend-main
+    ports:
+      - "3000:80"
+    restart: always
